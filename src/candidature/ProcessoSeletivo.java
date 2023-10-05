@@ -61,7 +61,7 @@ public class ProcessoSeletivo {
                 } else {
                     System.out.println("Contato realizado com sucesso!");
                 }
-            } while(continuarTentando && tentativasRealizadas < 3);
+            } while (continuarTentando && tentativasRealizadas < 3);
 
             if (atendeu) {
                 System.out.println("Conseguimos contato com " + candidato + " na " + tentativasRealizadas + "ª tentativa.");
@@ -80,7 +80,7 @@ public class ProcessoSeletivo {
         double salarioBase = 2000.00;
 
         try {
-            if(salarioBase > salarioPretendido) {
+            if (salarioBase > salarioPretendido) {
                 System.out.println("Ligar para o Candidato!");
             } else if (salarioBase == salarioPretendido) {
                 System.out.println("Ligar para o Candidato com Contra Proposta!");
